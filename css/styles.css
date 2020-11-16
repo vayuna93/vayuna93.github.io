@@ -10538,7 +10538,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .bg-image {
-  background-image: url('../assets/img/header-bg.JPG');
+  background-image: url('../assets/img/header-bg.jpg');
   background-size: cover;
   background-position: center;
 }
