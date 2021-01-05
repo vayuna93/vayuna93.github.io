@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --vayuna: #f25278;
+  --vayuna: #343a40;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -42,6 +42,10 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --subtext-color: #212529;
   --accent-color: #f25278;
+
+  --pri-color: #231f20;
+  --pri-light: #4b4647;
+  --pri-dark: #000000;
 }
 
 *,
@@ -69,7 +73,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #745f47;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -4380,10 +4384,10 @@ input[type=button].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  color: white;
 }
 .card > hr {
   margin-right: 0;
@@ -4408,10 +4412,12 @@ input[type=button].btn-block {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
+  text-align: center;
 }
 
 .card-title {
   margin-bottom: 0.75rem;
+  color: white;
 }
 
 .card-subtitle {
@@ -4433,7 +4439,7 @@ input[type=button].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .card-header:first-child {
@@ -4445,7 +4451,7 @@ input[type=button].btn-block {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: #fff;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 .card-footer:last-child {
@@ -10478,8 +10484,8 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-color: #745f47;
+  background-image: url("../assets/img/map-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -10513,7 +10519,7 @@ section#contact form#contactForm .form-control:focus {
 section#contact form#contactForm ::-webkit-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #ced4da;
+  color: #fff;
 }
 section#contact form#contactForm :-moz-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10548,3 +10554,42 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-size: cover;
   background-position: center;
 }
+.carousel-item {
+  height: 50vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.overyuna-image {
+  background-image: url('../assets/img/overyuna.JPG');
+  background-size: cover;
+  background-position: top;
+}
+
+.section-tarieven {
+  background-image: url("../assets/img/services.jpg");
+}
+
+.card-tarieven{
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+.section-voordelen {
+  background-color: #745f47;
+}
+
+.card-voordelen{
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+.section-services {
+  background-image: url("../assets/img/.jpg");
+}
+.card-services{
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
