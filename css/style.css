@@ -1,0 +1,134 @@
+:root{
+    --p-color: #231f20;
+    --p-light: #4b4647;
+    --p-dark: #212529;
+
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --pink: #f9c1b4;
+
+    --accent: #ffc107;
+}
+
+.nb{
+    background-color: var(--p-dark) !important;
+}
+
+body {
+  background-color: grey;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/front.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  @media (min-width: 768px) {
+    header.masthead {
+      padding-top: 12.5rem;
+      padding-bottom: 12.5rem;
+    }
+    
+  }
+
+.mx-9 {
+  margin-right: 12rem !important;
+  margin-left: 6rem !important;
+}
+
+.px-9 {
+  padding-right: 12rem !important;
+  padding-left: 6rem !important;
+}
+
+.pe-9 {
+  padding-right: 12rem !important;
+}
+
+.page-section {
+  padding: 6rem 0;
+  background-color: var(--light);
+}
+
+.sub-hr{
+  background-color: var(--accent); 
+  height: 0.15rem !important; 
+  width: 100px; 
+  opacity: 1;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.section-services {
+  background-color: var(--p-dark);
+}
+
+.section-about{
+  background-image: url("../assets/img/stof.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container-about{
+  background-color: var(--p-dark);
+}
+
+.section-testimonials{
+  background-color: white;
+}
+
+.section-contact{
+  background-color: var(--light);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23343a40' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.section-footer{
+  background-color: black;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23f8f9fa' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.xsmall {
+  font-size: 0.75em;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #664d03;
+  background-color: #fff3cd;
+}
+
+.p-font{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.h-font{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.h5{
+  color: #6a6969;
+}
+
+.h5-light{
+  color: var(--light);
+}
+
+.nr-services{
+  color: var(--accent);
+}
+
+.quote{
+  width: 20px;
+}
+
+.pricing-card{
+  background-color: #fff3cd;
+}
