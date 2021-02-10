@@ -16,7 +16,7 @@
 
 body {
   background-color: grey;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 header.masthead {
@@ -109,12 +109,11 @@ header.masthead {
   background-color: #fff3cd;
 }
 
-.p-font{
-  font-family: 'Montserrat', sans-serif;
-}
-
-.h-font{
-  font-family: 'Montserrat', sans-serif;
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #000000;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
 
 .h5{
@@ -134,7 +133,11 @@ header.masthead {
 }
 
 .pricing-card{
-  background-color: #fff3cd;
+  background-color: #ffd569;
+}
+
+.pricing-card-2{
+  background-color: #fb9e78;
 }
 
 .btn-contact{
@@ -144,4 +147,26 @@ header.masthead {
 
 .hyp-link{
   text-decoration: none;
+  font-weight: 500;
+}
+
+.hyp-link-dark{
+  text-decoration: none;
+  font-weight: 500;
+  color:#fff3cd;
+}
+
+.hyp-link-foot{
+  text-decoration: none;
+  color: grey;
+}
+
+.h-one{
+  font-weight: 400;
+  text-align: center !important;
+  margin-top: 0.25rem !important;
+}
+
+.icon-size{
+  width: 50px;
 }
