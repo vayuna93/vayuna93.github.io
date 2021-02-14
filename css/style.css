@@ -23,7 +23,7 @@ body {
     padding-top: 10.5rem;
     padding-bottom: 6rem;
     text-align: center;
-    background-image: url("../assets/img/front2.jpg");
+    background-image: url("../assets/img/front.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -241,8 +241,4 @@ body {
 .btn-outline-yun:disabled, .btn-outline-yun.disabled {
   color: var(--p-accent);
   background-color: transparent;
-}
-
-.card-body{
-  background-color: var(--p-accent-light);
 }
