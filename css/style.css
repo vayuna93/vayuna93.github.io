@@ -300,3 +300,8 @@ body {
   height: 100%;
   width: 100%;
 }
+
+.colab-hr{
+  height: 1px !important; 
+  opacity: 1;
+}
