@@ -1,7 +1,7 @@
 :root{
-    --p-color: #231f20;
+    --p-color: #372C1F;
     --p-light: #4b4647;
-    --p-dark: #282312;
+    --p-dark: #372C1F;
     --p-accent: #DBB07C;
     --p-accent-light: #f0c086;
     --p-accent-dark: #c9a273;
@@ -67,14 +67,14 @@ body {
 }
 
 .section-services {
-  background-color: var(--p-dark);
-}
-
-.section-about{
   background-image: url("../assets/img/stof.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+.section-about{
+  background-color: var(--p-dark);
 }
 
 .container-about{
@@ -84,13 +84,21 @@ body {
 .section-testimonials{
   background-color: white;
 }
-
+.section-tarieven{
+  background-color: white;
+}
 .section-contact{
   background-image: url("../assets/img/stof.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   color: white;
+}
+.layer {
+  padding: 6rem 0;
+  background-color: #0000004D;
+  width: 100%;
+  height: 100%;
 }
 
 .section-footer{
@@ -107,7 +115,7 @@ body {
 
 .accordion-button:not(.collapsed) {
   color: black;
-  background-color: var(--p-accent-light);
+  background-color: var(--p-accent);
 }
 
 .accordion-button:focus {
@@ -117,9 +125,6 @@ body {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
 
-.h5{
-  color: #6a6969;
-}
 
 .h5-light{
   color: var(--light);
@@ -241,4 +246,56 @@ body {
 .btn-outline-yun:disabled, .btn-outline-yun.disabled {
   color: var(--p-accent);
   background-color: transparent;
+}
+
+.d-block{
+  background-color: black;
+  color: var(--light);
+}
+
+.card-header{
+  background-color: var(--p-accent);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-footer {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border-top: 0px solid rgba(0, 0, 0, 0.125);
+}
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+.container-services{
+  background-color: var(--p-color);
+}
+
+.colab-img{
+  background-image: url("../assets/img/colab.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.about-img{
+  background-image: url("../assets/img/services.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100%;
+  width: 100%;
 }

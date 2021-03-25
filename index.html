@@ -48,7 +48,7 @@
 
     <!-- Navigation-->
     <header>
-      <nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top shadow-lg nb" aria-label="Third navbar example">
+      <nav class="navbar navbar-dark navbar-expand-lg fixed-top shadow-lg nb" aria-label="Third navbar example">
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img src="assets/icon/logo.svg" alt="" style="width: 80px;">
@@ -58,8 +58,9 @@
           </button>
           <div class="navbar-collapse collapse" id="navbarsExample03" style="">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item px-3"><a class="nav-link js-scroll-trigger text-white" href="services.html">Services</a></li>
-              <li class="nav-item px-3"><a class="nav-link js-scroll-trigger text-white" href="services.html">Tarieven</a></li>
+              <li class="nav-item px-3"><a class="nav-link js-scroll-trigger text-white" href="index.html">Home</a></li>
+              <li class="nav-item px-3"><a class="nav-link js-scroll-trigger text-white" href="index.html#services">Services</a></li>
+              <li class="nav-item px-3"><a class="nav-link js-scroll-trigger text-white" href="index.html#tarieven">Tarieven</a></li>
               <li class="nav-item px-3"><a class="nav-link js-scroll-trigger text-white" href="index.html#about">Over Yuna</a></li>
               <li class="nav-item px-3"><a class="nav-link js-scroll-trigger text-white" href="index.html#faq">Veelgestelde vragen</a></li>
               <li class="nav-item px-3"><a class="nav-link js-scroll-trigger text-white" href="index.html#contact">Contact</a></li>
@@ -103,7 +104,7 @@
       <article class="page-section section-voordelen" id="voordelen">
         <div class="container">
           <h1 class="display-5 h-one">Voordelen</h1>
-          <p class="lead text-center">van een VA</p>
+          <p class="text-center lead" style="color: #6a6969;">De voordelen van een VA</p>
           <hr class="mb-5 sub-hr">  
           <div class="row text-center">
             <div class="col-sm">
@@ -127,48 +128,57 @@
 
       <!--Services-->
       <article class="page-section section-services" id="services">
-        <div class="container">
-          <h1 class="display-5 h-one text-white">Services</h1>
-          <p class="lead text-white text-center">Bij VAYuna kun je terecht voor ondersteuning in je business. <br> Hieronder een paar van mijn diensten. </p>
-          <hr class="mb-5 sub-hr">
-          <div class="row justify-content-md-center">
-            <div class="col-sm text-center" style="display: flex;">
-              <img src="assets/img/services.jpg" class="img-fluid" alt="Responsive image" style="object-fit: cover;">
-            </div>
-            <div class="col-sm text-lg-left text-white">
-              <div class="row">
-                <div class="col-3">
-                  <h2 class="display-5 text-center pt-4 nr-services">01</h2>
-                </div>
-                <div class="col-7">
-                  <hr class="hr-white mr-5">
-                  <div class="h5 h5-light font-weight-light text-lg-left">Office managment</div>
-                  <p class="font-weight-light">Agenda, afspraakbeheer, mailbox, klantcontact, zakenreizen</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-3">
-                  <h2 class="display-5 text-center pt-4 nr-services">02</h2>
-                </div>
-                <div class="col-7">
-                  <hr class="hr-white mr-5">
-                  <div class="h5 h5-light font-weight-light text-lg-left">HR & Administratie</div>
-                  <p class="font-weight-light">Recruitment, factureren, offertes, CRM</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-3">
-                  <h2 class="display-5 text-center pt-4 nr-services">03</h2>
-                </div>
-                <div class="col-7">
-                  <hr class="hr-white mr-5">
-                  <div class="h5 h5-light font-weight-light text-lg-left">Online marketing</div>
-                  <p class="font-weight-light">Social media, blogs, content</p>
-                  <a href="services.html" class="hyp-link-dark">Meer info over de services <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor";><path class="cls-1" d="M10.91,5.36,7.25,1.7A.91.91,0,0,0,6,3L8.09,5.1H1.73a.9.9,0,1,0,0,1.8H8.09L6,9A.91.91,0,0,0,7.25,10.3l3.66-3.66A.91.91,0,0,0,10.91,5.36Z"/></svg></a>
+        <div class="container container-services pb-5 px-5">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col my-auto">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h1 class="display-5 h-one text-white">Services</h1>
+                  <p class="text-center lead" style="color: #dedede;">Bij VAYuna kun je terecht voor ondersteuning in je business. <br> Dit zijn een aantal van mijn diensten. </p>
+                  <hr class="sub-hr">
                 </div>
               </div>
             </div>
-          </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="col-sm text-lg-left text-white">
+                    <div class="row">
+                      <div class="col-3">
+                        <h2 class="display-5 text-center pt-4 nr-services">01</h2>
+                      </div>
+                      <div class="col-7">
+                        <hr class="hr-white mr-5">
+                        <div class="h5 h5-light font-weight-light text-lg-left">Office managment</div>
+                        <p class="font-weight-light">Agenda, afspraakbeheer, mailbox, klantcontact, zakenreizen</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">
+                        <h2 class="display-5 text-center pt-4 nr-services">02</h2>
+                      </div>
+                      <div class="col-7">
+                        <hr class="hr-white mr-5">
+                        <div class="h5 h5-light font-weight-light text-lg-left">HR & Administratie</div>
+                        <p class="font-weight-light">Recruitment, factureren, offertes, CRM</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">
+                        <h2 class="display-5 text-center pt-4 nr-services">03</h2>
+                      </div>
+                      <div class="col-7">
+                        <hr class="hr-white mr-5">
+                        <div class="h5 h5-light font-weight-light text-lg-left">Online marketing</div>
+                        <p class="font-weight-light">Social media, blogs, content</p>
+                        <a href="index.html#contact" class="hyp-link-dark">Meer info over de services <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor";><path class="cls-1" d="M10.91,5.36,7.25,1.7A.91.91,0,0,0,6,3L8.09,5.1H1.73a.9.9,0,1,0,0,1.8H8.09L6,9A.91.91,0,0,0,7.25,10.3l3.66-3.66A.91.91,0,0,0,10.91,5.36Z"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>         
         </div>
       </article>
 
@@ -178,14 +188,72 @@
         <hr class="mb-5 sub-hr">
         <div class="container">
           <div class="row justify-content-sm-center">
-            <div class="col-sm-4">
-              <p>Er zijn verschillende pakketten beschikbaar afhankelijk van jouw behoefte. Er zijn altijd meer mogelijkheden om samen te werken afhankelijk van jouw doelen en wensen.  </p>
-              <a href="services.html" class="hyp-link">Meer info over de tarieven <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor";><path class="cls-1" d="M10.91,5.36,7.25,1.7A.91.91,0,0,0,6,3L8.09,5.1H1.73a.9.9,0,1,0,0,1.8H8.09L6,9A.91.91,0,0,0,7.25,10.3l3.66-3.66A.91.91,0,0,0,10.91,5.36Z"/></svg></a>
+            <div class="col-lg px-5 mx-5">
+              <p>Het tarief is afhankelijk van de diensten die je wilt uitbesteden. Zo heb je al vanaf €120,- een weekelijkse social post. In het kennismakingsgesprek bespreken we je wensen en behoeftes. Aan de hand daarvan bepalen we welke diensten ik lever aan jou en wat de prijs daarvoor is. Aan het begin van de nieuwe maand evalueren we welke diensten erbij of eraf moeten en welke diensten blijven. Zo krijg je iedere maand terug wat je nodig hebt en betaal je niet voor ongebruikte diensten.</p>
+              <a href="index.html#contact" class="hyp-link-dark">Meer info over de tarieven <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor";><path class="cls-1" d="M10.91,5.36,7.25,1.7A.91.91,0,0,0,6,3L8.09,5.1H1.73a.9.9,0,1,0,0,1.8H8.09L6,9A.91.91,0,0,0,7.25,10.3l3.66-3.66A.91.91,0,0,0,10.91,5.36Z"/></svg></a>
             </div>
-            <div class="col-sm-4 text-center">
-              <div class="card sm-4 shadow-sm">
+          </div>
+        </div>
+      </article>
+
+      <!--Colab-->
+      <article class="page-section section-colab" id="colab">
+        <div class="container-fluid text-center">
+          <h1 class="display-5 h-one">Samenwerken</h1>
+          <p class="lead" style="color: #6a6969;">Stap voor stap</p>
+          <hr class="mb-5 sub-hr">
+          <div class="row justify-content-sm-center">
+            <div class="col text-start">
+              <div class="card h-100">
                 <div class="card-body">
-                  <h1 class="card-title pricing-card-title">€40 <small class="text-muted">/ uur</small></h1>
+                  <div class="row mb-5"> 
+                    <div class="col"> 
+                      <hr>
+                      <p class="h4 text-end">1</p>
+                    </div>
+                    <div class="col">
+                      <p class="h4">Diensten en uren</p>
+                      <p>Bepaal de werkzaamheden die je wilt uitbesteden en hoeveel uur per je met die werkzaamheden bezig bent.</p>
+                    </div>
+                  </div>
+                  <div class="row mb-5"> 
+                    <div class="col"> 
+                      <hr>
+                      <p class="h4 text-end">2</p>
+                    </div>
+                    <div class="col">
+                      <p class="h4">Kennismakingsgesprek</p>
+                      <p>Neem contact met mij op, dan bespreken we je wensen en kijken of er een klik is. </p>
+                    </div>
+                  </div>
+                  <div class="row mb-5"> 
+                    <div class="col"> 
+                      <hr>
+                      <p class="h4 text-end">3</p>
+                    </div>
+                    <div class="col">
+                      <p class="h4">Pakket keuze</p>
+                      <p>Na het kennismakingsgesprek, maak ik een voorstel en kies jij het pakket dat het beste bij je past.</p>
+                    </div>
+                  </div>
+                  <div class="row mb-5"> 
+                    <div class="col"> 
+                      <hr>
+                      <p class="h4 text-end">4</p>
+                    </div>
+                    <div class="col">
+                      <p class="h4">Start!</p>
+                      <p>Na akkoord stuur ik je het contract en de juridische documenten. De samenwerking kan beginnen!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="colab-img">
+                  </div>
                 </div>
               </div>
             </div>
@@ -195,57 +263,83 @@
 
       <!--Over-->
       <article class="page-section section-about" id="about">
-        <div class="container container-about mb-5 mt-5">
-          <br>
-          <br>
-          <br>
-          <div class="row">
-            <div class="col-sm text-center">
-              <div class="container align-middle" style="display: inline;">
-                <h1 class="display-5 h-one text-white">Over Yuna</h1>
-                <hr class="sub-hr">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <h1 class="display-5 h-one text-white">Over Yuna</h1>
+            <p class="text-center lead" style="color: #dedede;">Een stukje over mijzelf</p>
+            <hr class="sub-hr">
+            <div class="row row-cols-1 row-cols-lg-2 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <div class="about-img">
+
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-sm text-lg-left text-white font-weight-light">
-              In VA Yuna komt mijn werkervaring als HR Assistent & stewardess perfect samen. Met een passie voor het ontzorgen en ondersteunen neem ik graag taken uit handen van ambitieuze ondernemers die behoefte hebben aan meer focus, rust en groei. Ik help jou in je business zodat jij in je kracht staat zowel op werkgebied als privé. 
-              <br><br>
-              Op afstand kan ik je perfect ondersteunen met mijn kwaliteiten, want ik begrijp als mede ondernemer dat de randzaken niet je prioriteit zijn. Door taken aan mij uit te besteden krijg jij de energie om alles uit je business te halen. Ik werk daar graag aan mee! 
-              <br><br>
-              Kennismaken? Plan vrijblijvend een kennismakingsgesprek met mij in. 
-            </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <div class="col-sm text-lg-left text-white font-weight-light">
+                      In VA Yuna komt mijn werkervaring als HR Assistent & stewardess perfect samen. Met een passie voor het ontzorgen en ondersteunen neem ik graag taken uit handen van ambitieuze ondernemers die behoefte hebben aan meer focus, rust en groei. Ik help jou in je business zodat jij in je kracht staat zowel op werkgebied als privé. 
+                      <br><br>
+                      Op afstand kan ik je perfect ondersteunen met mijn kwaliteiten, want ik begrijp als mede ondernemer dat de randzaken niet je prioriteit zijn. Door taken aan mij uit te besteden krijg jij de energie om alles uit je business te halen. Ik werk daar graag aan mee! 
+                      <br><br>
+                      Kennismaken? Plan vrijblijvend een kennismakingsgesprek met mij in. 
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>      
           </div>
-          <br>
-          <br>
-          <br>
         </div>
       </article>
 
       <!--Testimonials-->
       <article class="page-section section-testimonials" id="testimonials">
-        <h1 class="display-5 h-one">Testimonials</h1>
-        <p class="text-center lead" style="color: #6a6969;">Wat andere over mij zeggen</p>
-        <hr class="mb-5 sub-hr">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-sm">
-              <p class="px-3"><img src="assets/icon/quote-up.svg" class="quote" alt=""> Ik heb Yuna leren kennen als een gepassioneerde doorzetter die precies weet waar ze waarde kan bijdragen en waar haar kracht ligt. Iemand die support levert daar waar het nodig is en zich blijft ontwikkelen, zowel zakelijk als persoonlijk. Met haar creativiteit, cleverness en punctualiteit is ze een waardevolle toevoeging voor jou als ondernemer of bedrijf! <img src="assets/icon/quote-down.svg" class="quote" alt=""></p>
-              <img src="assets/img/c1.png" class="img-fluid rounded-circle" alt="...">
-              <div class="h5 mt-3">Charlotte Trommelen</div>
-              <div class="h6">Marketeer & Coach</div>
+        <div class="container text-center">
+          <h1 class="display-5 h-one">Testimonials</h1>
+          <p class="lead" style="color: #6a6969;">Wat andere over mij zeggen</p>
+          <hr class="mb-5 sub-hr">
+          <div class="row row-cols-1 row-cols-lg-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <p class="px-3"><img src="assets/icon/quote-up.svg" class="quote" alt=""> Ik heb Yuna leren kennen als een gepassioneerde doorzetter die precies weet waar ze waarde kan bijdragen en waar haar kracht ligt. Iemand die support levert daar waar het nodig is en zich blijft ontwikkelen, zowel zakelijk als persoonlijk. Met haar creativiteit, cleverness en punctualiteit is ze een waardevolle toevoeging voor jou als ondernemer of bedrijf! <img src="assets/icon/quote-down.svg" class="quote" alt=""></p>
+                </div>
+                <div class="card-footer">
+                  <img src="assets/img/c1.png" class="img-fluid rounded-circle" alt="...">
+                  <div class="h5 mt-3">Charlotte Trommelen</div>
+                  <div class="h6">Marketeer & Coach</div>
+                </div>
+              </div>
             </div>
-            <div class="col-sm">
-              <p class="px-3"><img src="assets/icon/quote-up.svg" class="quote" alt=""> Yuna is een echte alleskunner! Niet alleen is ze ijzersterk qua communicatie, ze leverde ook daadwerkelijk af wat ik voor ogen had. Met weinig woorden (handig als ondernemer met weinig tijd) begrijpt ze wat je wilt en gaat aan de slag. Ik kan met een gerust hart taken uit handen geven. Ik ben zeer tevreden met onze samenwerking en kijk er naar uit om andere plannen samen uit te werken! <img src="assets/icon/quote-down.svg" class="quote" alt=""></p>
-              <img src="assets/img/v1.png" class="img-fluid rounded-circle" alt="...">
-              <div class="h5 mt-3">Vivian Heemskerk</div>
-              <div class="h6">Huidtherapeut</div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <p class="px-3"><img src="assets/icon/quote-up.svg" class="quote" alt=""> Yuna is een echte alleskunner! Niet alleen is ze ijzersterk qua communicatie, ze leverde ook daadwerkelijk af wat ik voor ogen had. Met weinig woorden (handig als ondernemer met weinig tijd) begrijpt ze wat je wilt en gaat aan de slag. Ik kan met een gerust hart taken uit handen geven. Ik ben zeer tevreden met onze samenwerking en kijk er naar uit om andere plannen samen uit te werken! <img src="assets/icon/quote-down.svg" class="quote" alt=""></p>
+                </div>
+                <div class="card-footer">
+                  <img src="assets/img/v1.png" class="img-fluid rounded-circle" alt="...">
+                  <div class="h5 mt-3">Vivian Heemskerk</div>
+                  <div class="h6">Huidtherapeut</div>
+                </div>
+              </div>
             </div>
-            <div class="col-sm">
-              <p class="px-3"><img src="assets/icon/quote-up.svg" class="quote" alt=""> Ik kan niets meer zeggen dan dat Yuna een uiterst betrokken, warm, en creatief persoon is. Het was een plezier om met haar samen te werken en te sparren over verschillende HR-onderwerpen. Zij is een aanwinst voor iedere onderneemster die behoefte heeft om te sparren en nieuw creatief input nodig heeft! <img src="assets/icon/quote-down.svg" class="quote" alt=""></p>
-              <img src="assets/img/y1.png" class="img-fluid rounded-circle" alt="...">
-              <div class="h5 mt-3">Yati Kruyt</div>
-              <div class="h6">Voorzitter</div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <p class="px-3"><img src="assets/icon/quote-up.svg" class="quote" alt=""> Ik kan niets meer zeggen dan dat Yuna een uiterst betrokken, warm, en creatief persoon is. Het was een plezier om met haar samen te werken en te sparren over verschillende HR-onderwerpen. Zij is een aanwinst voor iedere onderneemster die behoefte heeft om te sparren en nieuw creatief input nodig heeft! <img src="assets/icon/quote-down.svg" class="quote" alt=""></p>
+                </div>
+                <div class="card-footer">
+                  <img src="assets/img/y1.png" class="img-fluid rounded-circle" alt="...">
+                  <div class="h5 mt-3">Yati Kruyt</div>
+                  <div class="h6">Voorzitter</div>
+                </div>
+              </div>
             </div>
-          </div>
+          </div>  
         </div>
       </article>
 
@@ -286,12 +380,36 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Hoe weet ik waar een VA haar tijd aanbesteed?
+                  Voor hoeveel uur kan ik je inhuren?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>In Trello</strong> registreer ik de tijd die ik aan de werkzaamheden besteed. Je mag dit altijd inzien!
+                  Vanaf een paar uur per week kunnen we samenwerken, dit kan structureel als je terugkerende taken maandelijks wilt uitbesteden. Maar het is ook op projectbasis mogelijk in periodes dat je extra hulp kunt gebruiken.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Hoe verloopt een samenwerking?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Elke maand ontmoeten we elkaar in een online meeting. Daarin bespreken we de werkzaamheden en maken we een planning inc. deadlines. Omdat we samenwerken op afstand spreken we van te voren af hoe we met elkaar communiceren. Dankzij de planning weten we beiden waar we aan toe zijn en wanneer taken worden opgeleverd.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Werk je vaste dagen?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Elke week is mijn vliegrooster anders, daarop pas ik de dagen dat ik als VA werk aan. Om er voor te zorgen dat er overzicht en duidelijkheid is maken we elke maand een planning, zodat je weet wanneer werkzaamheden opgeleverd worden. 
                 </div>
               </div>
             </div>
@@ -300,48 +418,50 @@
       </article>
 
       <!--Contact-->
-      <article class="page-section section-contact" id="contact">
-        <h1 class="display-5 h-one">Contact</h1>
-        <hr class="mb-5 sub-hr">
-        <div class="container">
-          <div class="row justify-content-md-center">
-            <div class="col-sm-5">
-              <h2>Let's connect!</h2>
-              <p>Zin om samen te werken met VA Yuna? Of benieuwd wat ik voor jou kan betekenen? Stuur een bericht via het contactformulier of neem direct contact op via de mail of telefoon!</p>
-              <h5> Contact informatie</h5>
-              <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-              </svg> Den Haag</p>
-              <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-              </svg> +31(6)20259216</p>
-              <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
-              </svg> info@vayuna.nl</p>
-            </div>
-            <div class="col-sm-5">
-              <form name="input" action="https://formspree.io/f/xayljjzb" method="post">
-                <div class="">
-                  <input class="form-control" id="name" name="name" type="text" placeholder="Naam" data-validation-required-message="Please enter your name." />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="">
-                  <input class="form-control" id="email" name="contact" type="email" placeholder="Email *" required="required" data-validation-required-message="Please enter your email address." />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="mb-md-0">
-                  <input class="form-control" id="phone" name="phone" type="tel" placeholder="Telefoonnummer" data-validation-required-message="Please enter your phone number." />
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="mb-md-0">
-                  <textarea class="form-control" id="message" name="message" placeholder="Bericht *" required="required" data-validation-required-message="Please enter a message." style="height: 10rem;"></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div>
-                  <div id="success"></div>
-                  <button class="btn btn-yun" type="submit">Verstuur</button>
-                </div>
-              </form>
+      <article class="section-contact" id="contact">
+        <div class="layer">
+          <h1 class="display-5 h-one">Contact</h1>
+          <hr class="mb-5 sub-hr">
+          <div class="container gx-5">
+            <div class="row justify-content-md-center">
+              <div class="col-sm-5">
+                <h2>Let's connect!</h2>
+                <p>Zin om samen te werken met VA Yuna? Of benieuwd wat ik voor jou kan betekenen? Stuur een bericht via het contactformulier of neem direct contact op via de mail of telefoon!</p>
+                <h5> Contact informatie</h5>
+                <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg> Den Haag</p>
+                <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg> +31(6)20259216</p>
+                <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                </svg> info@vayuna.nl</p>
+              </div>
+              <div class="col-sm">
+                <form name="input" action="https://formspree.io/f/xayljjzb" method="post">
+                  <div class="">
+                    <input class="form-control" id="name" name="name" type="text" placeholder="Naam" data-validation-required-message="Please enter your name." />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="">
+                    <input class="form-control" id="email" name="contact" type="email" placeholder="Email *" required="required" data-validation-required-message="Please enter your email address." />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="mb-md-0">
+                    <input class="form-control" id="phone" name="phone" type="tel" placeholder="Telefoonnummer" data-validation-required-message="Please enter your phone number." />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="mb-md-0">
+                    <textarea class="form-control" id="message" name="message" placeholder="Bericht *" required="required" data-validation-required-message="Please enter a message." style="height: 10rem;"></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div>
+                    <div id="success"></div>
+                    <button class="btn btn-yun" type="submit">Verstuur</button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
