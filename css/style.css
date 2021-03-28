@@ -20,7 +20,7 @@ body {
 }
 
 .masthead {
-    padding-top: 10.5rem;
+    padding-top: 11.5rem;
     padding-bottom: 6rem;
     text-align: center;
     background-image: url("../assets/img/front.jpg");
@@ -32,8 +32,8 @@ body {
   
   @media (min-width: 768px) {
     .masthead {
-      padding-top: 12.5rem;
-      padding-bottom: 12.5rem;
+      padding-top: 17.5rem;
+      padding-bottom: 17.5rem;
     }
     
   }
@@ -293,7 +293,7 @@ body {
 }
 
 .about-img{
-  background-image: url("../assets/img/services.jpg");
+  background-image: url("../assets/img/about.jpg");
   background-size: cover;
   background-position: center;
   color: white;
