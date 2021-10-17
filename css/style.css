@@ -6,13 +6,21 @@
     --p-accent-light: #f0c086;
     --p-accent-dark: #c9a273;
 
-    --light: #f8f9fa;
+    --light: #fffbf5;
     --dark: #343a40;
     --pink: #f9c1b4;
 }
 
 .nb{
-    background-color: var(--p-dark) !important;
+    background-color: #fffbf5 !important;
+}
+
+.navtext{
+  color: black;
+}
+
+.maintext{
+  color: #fffbf5;
 }
 
 body {
@@ -74,19 +82,19 @@ body {
 }
 
 .section-about{
-  background-color: var(--p-dark);
+  background-color: #fffbf5;
 }
 
 .container-about{
-  background-color: var(--p-dark);
+  background-color: #fffbf5;
 }
 
 .section-testimonials{
-  background-color: white;
+  background-color: #cf857f;
 }
 .section-tarieven{
   padding: 10rem 0;
-  background-color: white;
+  background-color: #cf857f;
 }
 .section-contact{
   background-image: url("../assets/img/stof.jpg");
@@ -103,7 +111,7 @@ body {
 }
 
 .section-footer{
-  background-color: var(--p-dark);
+  background-color: #fffbf5;
 }
 
 .xxsmall {
@@ -196,7 +204,7 @@ body {
 
 .btn-yun {
   color: #000;
-  background-color: var(--p-accent);
+  background-color: #fffbf5;;
   border-color: var(--p-accent);
 }
 .btn-yun:hover {
@@ -280,7 +288,7 @@ body {
 }
 
 .container-services{
-  background-color: var(--p-color);
+  background-color: #cf857f;
 }
 
 .colab-img{
@@ -295,7 +303,7 @@ body {
 .about-img{
   background-image: url("../assets/img/about.png");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   color: white;
   height: 100%;
   width: 100%;
