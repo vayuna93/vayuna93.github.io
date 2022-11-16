@@ -46,6 +46,7 @@ body {
     
   }
 
+
 .mx-9 {
   margin-right: 12rem !important;
   margin-left: 6rem !important;
@@ -292,7 +293,7 @@ body {
 }
 
 .colab-img{
-  background-image: url("../assets/img/colab.png");
+  background-image: url("../assets/img/colab.jpeg");
   background-size: cover;
   background-position: center;
   color: white;
@@ -301,7 +302,7 @@ body {
 }
 
 .about-img{
-  background-image: url("../assets/img/about.png");
+  background-image: url("../assets/img/about.jpeg");
   background-size: cover;
   background-position: top;
   color: white;
